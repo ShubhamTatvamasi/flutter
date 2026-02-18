@@ -17,6 +17,11 @@ echo 'export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:/opt/homebrew/sha
 source ~/.zshrc
 ```
 
+Install SDK Components:
+```bash
+sdkmanager --sdk_root=$ANDROID_HOME "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+```
+
 Check Flutter doctor:
 ```bash
 flutter doctor -v
