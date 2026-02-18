@@ -1,5 +1,7 @@
 # flutter
 
+### Setup
+
 Install OpenJDK and flutter:
 ```bash
 brew install openjdk@17
@@ -43,6 +45,8 @@ Check Flutter doctor:
 ```bash
 flutter doctor -v
 ```
+
+### Build App 
 
 Create a new flutter project:
 ```bash
