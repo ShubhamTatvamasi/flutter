@@ -17,15 +17,21 @@ echo 'export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmd
 source ~/.zshrc
 ```
 
-Install SDK Components:
-```bash
-sdkmanager --sdk_root=$ANDROID_HOME "platform-tools" "platforms;android-34" "build-tools;34.0.0"
-```
-
 Link cmdline-tools:
 ```bash
 ln -s /opt/homebrew/share/android-commandlinetools/cmdline-tools \
   $ANDROID_HOME
+```
+
+Install SDK Components:
+```bash
+sdkmanager --sdk_root=$ANDROID_HOME \
+  "platform-tools" \
+  "platforms;android-34" \
+  "build-tools;34.0.0" \
+  "platforms;android-36" \
+  "build-tools;36.0.0" \
+  "build-tools;28.0.3"
 ```
 
 Check Flutter doctor:
