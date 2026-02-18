@@ -55,6 +55,11 @@ flutter create \
   --project-name flutter_bounce .
 ```
 
+Check your build for error:
+```bash
+flutter analyze
+```
+
 List all the devices:
 ```bash
 flutter devices
