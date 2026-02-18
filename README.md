@@ -34,6 +34,11 @@ sdkmanager --sdk_root=$ANDROID_HOME \
   "build-tools;28.0.3"
 ```
 
+Accept android licenses:
+```bash
+flutter doctor --android-licenses
+```
+
 Check Flutter doctor:
 ```bash
 flutter doctor -v
