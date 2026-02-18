@@ -22,6 +22,12 @@ Install SDK Components:
 sdkmanager --sdk_root=$ANDROID_HOME "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 ```
 
+Link cmdline-tools:
+```bash
+ln -s /opt/homebrew/share/android-commandlinetools/cmdline-tools \
+  $ANDROID_HOME
+```
+
 Check Flutter doctor:
 ```bash
 flutter doctor -v
