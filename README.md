@@ -70,6 +70,11 @@ Start the app on your device:
 flutter run -d I2220
 ```
 
+Deletes all generated build artifacts:
+```bash
+flutter clean
+```
+
 Build the final app for release:
 ```bash
 flutter build appbundle --release
