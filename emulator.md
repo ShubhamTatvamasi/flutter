@@ -36,6 +36,11 @@ List virtual devices:
 emulator -list-avds
 ```
 
+Start emulator:
+```bash
+emulator -avd Nexus7Tablet
+```
+
 Delete system image:
 ```bash
 avdmanager delete avd -n Nexus7Tablet
