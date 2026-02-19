@@ -34,7 +34,8 @@ sdkmanager --sdk_root=$ANDROID_HOME \
   "platforms;android-36" \
   "build-tools;36.0.0" \
   "build-tools;28.0.3" \
-  "ndk;26.1.10909125"
+  "ndk;26.1.10909125" \
+  "emulator"
 ```
 
 Accept android licenses:
