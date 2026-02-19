@@ -31,3 +31,8 @@ avdmanager create avd \
   -d "Nexus 10"
 ```
 
+Delete system image:
+```bash
+avdmanager delete avd -n Nexus7Tablet
+```
+
