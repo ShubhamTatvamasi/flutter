@@ -70,6 +70,11 @@ Start the app on your device:
 flutter run -d I2220
 ```
 
+Build the final app for release:
+```bash
+flutter build appbundle --release
+```
+
 ### Dart
 
 Generate icon using dart file:
