@@ -41,8 +41,15 @@ Start emulator:
 emulator -avd Nexus7Tablet
 ```
 
+Run app on emulator:
+```bash
+flutter run -d Pixel
+```
+
 Delete system image:
 ```bash
 avdmanager delete avd -n Nexus7Tablet
 ```
+
+
 
