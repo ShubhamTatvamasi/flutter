@@ -69,3 +69,11 @@ Start the app on your device:
 ```bash
 flutter run -d I2220
 ```
+
+### Dart
+
+Generate icon using dart file:
+```bash
+dart run tool/generate_icons.dart
+```
+
