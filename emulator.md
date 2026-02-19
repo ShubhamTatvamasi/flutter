@@ -50,6 +50,7 @@ flutter run -d Pixel
 Delete system image:
 ```bash
 avdmanager delete avd -n Nexus7Tablet
+avdmanager delete avd -n Nexus10Tablet
 ```
 
 
