@@ -35,8 +35,9 @@ Install SDK Components:
 sdkmanager --sdk_root=$ANDROID_HOME \
   "platform-tools" \
   "platforms;android-34" \
-  "build-tools;34.0.0" \
   "platforms;android-36" \
+  "build-tools;34.0.0" \
+  "build-tools;35.0.0" \
   "build-tools;36.0.0" \
   "build-tools;28.0.3" \
   "ndk;26.1.10909125" \
