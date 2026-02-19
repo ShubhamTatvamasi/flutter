@@ -24,6 +24,9 @@ Link cmdline-tools:
 ```bash
 ln -s /opt/homebrew/share/android-commandlinetools/cmdline-tools \
   $ANDROID_HOME
+
+ln -s /opt/homebrew/share/android-commandlinetools/system-images \
+  $ANDROID_HOME
 ```
 
 Install SDK Components:
