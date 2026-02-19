@@ -87,6 +87,11 @@ rm -rf android/.gradle
 rm -rf android/build
 ```
 
+Build APK for testing:
+```bash
+flutter build apk
+```
+
 Build the final app for release:
 ```bash
 flutter build appbundle --release
