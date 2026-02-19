@@ -17,8 +17,7 @@ sdkmanager --install "system-images;android-35;google_apis_tablet;arm64-v8a"
 
 Create 7 inch tablet:
 ```bash
-avdmanager create avd \
-  --sdk_root=$ANDROID_SDK_ROOT \
+avdmanager --sdk_root=$ANDROID_SDK_ROOT create avd \
   -n Nexus7Tablet \
   -k "system-images;android-35;google_apis_tablet;arm64-v8a" \
   -d "Nexus 7 2013"
