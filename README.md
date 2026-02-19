@@ -14,6 +14,7 @@ Set ANDROID_HOME and JAVA_HOME paths:
 ```bash
 echo 'export JAVA_HOME="/opt/homebrew/opt/openjdk@17"' >> ~/.zshrc
 echo 'export ANDROID_HOME="$HOME/Library/Android/sdk"' >> ~/.zshrc
+echo 'export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk' >> ~/.zshrc
 echo 'export PATH="$JAVA_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"' >> ~/.zshrc
 
 source ~/.zshrc
