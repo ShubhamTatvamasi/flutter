@@ -27,6 +27,9 @@ ln -s /opt/homebrew/share/android-commandlinetools/cmdline-tools \
 
 ln -s /opt/homebrew/share/android-commandlinetools/system-images \
   $ANDROID_HOME
+
+ls -s /opt/homebrew/share/android-commandlinetools/emulator \
+  $ANDROID_HOME
 ```
 
 Install SDK Components:
