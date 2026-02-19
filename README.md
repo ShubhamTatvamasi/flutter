@@ -92,6 +92,11 @@ Build APK for testing:
 flutter build apk
 ```
 
+After completion, your APK will be here:
+```
+build/app/outputs/flutter-apk/app-debug.apk
+```
+
 Build the final app for release:
 ```bash
 flutter build appbundle --release
