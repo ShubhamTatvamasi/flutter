@@ -39,6 +39,7 @@ emulator -list-avds
 Start emulator:
 ```bash
 emulator -avd Nexus7Tablet
+emulator -avd Nexus10Tablet
 ```
 
 Run app on emulator:
