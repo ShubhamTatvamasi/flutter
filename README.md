@@ -90,6 +90,7 @@ rm -rf android/build
 Build APK for testing:
 ```bash
 flutter build apk
+flutter build apk --debug
 ```
 
 After completion, your APK will be here:
