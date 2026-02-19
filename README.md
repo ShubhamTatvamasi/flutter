@@ -73,7 +73,15 @@ flutter run -d I2220
 
 Deletes all generated build artifacts:
 ```bash
+rm -rf ~/.gradle/caches
+rm -rf ~/.gradle/daemon
+rm -rf ~/.gradle/native
+rm -rf ~/.gradle/wrapper
+
 flutter clean
+
+rm -rf android/.gradle
+rm -rf android/build
 ```
 
 Build the final app for release:
