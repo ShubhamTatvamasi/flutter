@@ -9,3 +9,17 @@ keytool -genkey -v \
   -validity 10000 \
   -alias upload
 ```
+
+Setup `key.properties` inside flutter project:
+```bash
+vim android/key.properties
+```
+
+`key.properties` file:
+```bash
+storePassword=<password-from-previous-step>
+keyPassword=<password-from-previous-step>
+keyAlias=upload
+storeFile=<keystore-file-location>
+```
+> Both passwords are same
