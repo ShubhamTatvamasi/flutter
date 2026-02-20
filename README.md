@@ -58,6 +58,7 @@ flutter build apk --debug
 
 After completion, your APK will be here:
 ```
+build/app/outputs/flutter-apk/app-release.apk
 build/app/outputs/flutter-apk/app-debug.apk
 ```
 
