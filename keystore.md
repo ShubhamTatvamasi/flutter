@@ -12,7 +12,7 @@ keytool -genkey -v \
 
 Verify:
 ```bash
-keytool -list -v -keystore /Users/shubham/upload-keystore.jks -alias upload
+keytool -list -v -keystore ~/upload-keystore.jks -alias upload
 ```
 
 Setup `key.properties` inside flutter project:
