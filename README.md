@@ -66,6 +66,11 @@ Build the final app for release:
 flutter build appbundle --release
 ```
 
+Check the release file:
+```bash
+build/app/outputs/bundle/release/app-release.aab
+```
+
 ### Dart
 
 Generate icon using dart file:
