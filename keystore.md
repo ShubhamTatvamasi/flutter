@@ -10,6 +10,11 @@ keytool -genkey -v \
   -alias upload
 ```
 
+Verify:
+```bash
+keytool -list -v -keystore /Users/shubham/upload-keystore.jks -alias upload
+```
+
 Setup `key.properties` inside flutter project:
 ```bash
 vim android/key.properties
