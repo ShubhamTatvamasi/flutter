@@ -10,9 +10,18 @@ Check system images:
 sdkmanager --list | grep system-images
 ```
 
-Install tablet emulator:
+Install system image for mobile and tablet:
 ```bash
+sdkmanager --install "system-images;android-35;google_apis;arm64-v8a"
 sdkmanager --install "system-images;android-35;google_apis_tablet;arm64-v8a"
+```
+
+Create Pixel Device for mobile:
+```bash
+avdmanager create avd \
+  -n Pixel7Mobile \
+  -k "system-images;android-35;google_apis;arm64-v8a" \
+  -d "Pixel 7"
 ```
 
 Create 7 inch tablet:
