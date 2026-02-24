@@ -16,6 +16,11 @@ sdkmanager --install "system-images;android-35;google_apis;arm64-v8a"
 sdkmanager --install "system-images;android-35;google_apis_tablet;arm64-v8a"
 ```
 
+List installed images:
+```bash
+sdkmanager --list_installed
+```
+
 Create Pixel Device for mobile:
 ```bash
 avdmanager create avd \
