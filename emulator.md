@@ -26,7 +26,7 @@ Create Pixel Device for mobile:
 avdmanager create avd \
   -n Pixel7Mobile \
   -k "system-images;android-35;google_apis;arm64-v8a" \
-  -d "Pixel 7"
+  -d "pixel_7"
 ```
 
 Create 7 inch tablet:
@@ -53,17 +53,20 @@ avdmanager list avd
 
 Start emulator:
 ```bash
+emulator -avd Pixel7Mobile
 emulator -avd Nexus7Tablet
 emulator -avd Nexus10Tablet
 ```
 
 Run app on emulator:
 ```bash
+flutter run -d emulator-5556
 flutter run -d Pixel
 ```
 
 Delete system image:
 ```bash
+avdmanager delete avd -n Pixel7Mobile
 avdmanager delete avd -n Nexus7Tablet
 avdmanager delete avd -n Nexus10Tablet
 ```
