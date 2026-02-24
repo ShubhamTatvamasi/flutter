@@ -34,6 +34,7 @@ avdmanager create avd \
 List virtual devices:
 ```bash
 emulator -list-avds
+avdmanager list avd
 ```
 
 Start emulator:
