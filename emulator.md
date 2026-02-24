@@ -10,7 +10,7 @@ Check system images:
 sdkmanager --list | grep system-images
 ```
 
-Install system image for mobile and tablet:
+Install system image for `mobile` and `tablet`:
 ```bash
 sdkmanager --install "system-images;android-35;google_apis;arm64-v8a"
 sdkmanager --install "system-images;android-35;google_apis_tablet;arm64-v8a"
