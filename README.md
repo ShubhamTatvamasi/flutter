@@ -3,6 +3,7 @@
 Select stable channel for building flutter apps:
 ```bash
 flutter channel stable
+flutter upgrade --force
 ```
 
 Accept android licenses:
