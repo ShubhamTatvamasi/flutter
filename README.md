@@ -1,5 +1,10 @@
 # flutter
 
+Select stable channel for building flutter apps:
+```bash
+flutter channel stable
+```
+
 Accept android licenses:
 ```bash
 flutter doctor --android-licenses
