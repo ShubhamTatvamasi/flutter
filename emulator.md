@@ -64,7 +64,7 @@ flutter run -d emulator-5556
 flutter run -d Pixel
 ```
 
-Delete system image:
+Delete emulator image:
 ```bash
 avdmanager delete avd -n Pixel9Mobile
 avdmanager delete avd -n Nexus7Tablet
