@@ -108,6 +108,10 @@ jobs:
           path: build/app/outputs/flutter-apk/app-debug.apk
           retention-days: 1
 
+      - name: Cleanup keystore file
+        if: always()
+        run: rm -f ${{ runner.temp }}/upload-keystore.jks
+
   deploy:
     name: Publish to Play Store
     if: ${{ inputs.deploy }}
