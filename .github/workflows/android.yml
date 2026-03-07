@@ -12,12 +12,12 @@ on:
         description: "Play Store track"
         required: true
         type: choice
-        default: Internal Testing
+        default: Production
         options:
-          - Internal Testing
-          - Closed Testing
-          - Open Testing
           - Production
+          - Open Testing
+          - Closed Testing
+          - Internal Testing
 
 jobs:
   build:
@@ -132,10 +132,10 @@ jobs:
       - name: Map friendly track name
         run: |
           case "${{ inputs.track }}" in
-            "Internal Testing") TRACK=internal ;;
-            "Closed Testing") TRACK=alpha ;;
-            "Open Testing") TRACK=beta ;;
             "Production") TRACK=production ;;
+            "Open Testing") TRACK=beta ;;
+            "Closed Testing") TRACK=alpha ;;
+            "Internal Testing") TRACK=internal ;;
           esac
           echo "TRACK=$TRACK" >> $GITHUB_ENV
 
