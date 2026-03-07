@@ -29,6 +29,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      - name: Determine package name
+        id: pkg
+        run: |
+          pkg=$(sed -n 's/.*applicationId *= *"\([^"]*\)".*/\1/p' android/app/build.gradle.kts)
+          echo "PACKAGE_NAME=$pkg" >> $GITHUB_OUTPUT
+
       - name: Set up Java 17
         uses: actions/setup-java@v5
         with:
@@ -65,12 +71,6 @@ jobs:
           keyAlias=upload
           storeFile=${{ runner.temp }}/upload-keystore.jks
           EOF
-
-      - name: Determine package name
-        id: pkg
-        run: |
-          pkg=$(sed -n 's/.*applicationId *= *"\([^"]*\)".*/\1/p' android/app/build.gradle.kts)
-          echo "PACKAGE_NAME=$pkg" >> $GITHUB_OUTPUT
 
       - name: Build Android App Bundle
         run: |
