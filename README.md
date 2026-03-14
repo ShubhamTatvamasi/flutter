@@ -22,7 +22,7 @@ Create a new flutter project:
 ```bash
 flutter create \
   --org com.shubhamtatvamasi \
-  --project-name flutter_bounce .
+  --project-name flutter_game .
 ```
 
 Check your build for error:
