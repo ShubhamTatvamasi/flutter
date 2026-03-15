@@ -45,6 +45,11 @@ Download packages:
 flutter pub get
 ```
 
+Clean the old build cache:
+```bash
+flutter clean
+```
+
 List all the devices:
 ```bash
 flutter devices
