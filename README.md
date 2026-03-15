@@ -30,6 +30,21 @@ Check your build for error:
 flutter analyze
 ```
 
+List outdated packages:
+```bash
+flutter pub outdated
+```
+
+Update packages:
+```bash
+flutter pub upgrade
+```
+
+Download packages:
+```bash
+flutter pub get
+```
+
 List all the devices:
 ```bash
 flutter devices
