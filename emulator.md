@@ -65,7 +65,7 @@ flutter devices
 
 Run app on emulator:
 ```bash
-flutter run -d emulator-5554
+flutter run -d sdk
 flutter run -d Pixel
 ```
 
