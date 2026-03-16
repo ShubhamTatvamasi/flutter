@@ -58,6 +58,11 @@ emulator -avd Nexus7Tablet
 emulator -avd Nexus10Tablet
 ```
 
+List all the devices:
+```bash
+flutter devices
+```
+
 Run app on emulator:
 ```bash
 flutter run -d emulator-5556
