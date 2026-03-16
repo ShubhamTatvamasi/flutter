@@ -28,3 +28,15 @@ keyAlias=upload
 storeFile=<keystore-file-location>
 ```
 > Both passwords are same
+
+
+---
+
+Update `android/app/build.gradle.kts` file
+
+
+https://docs.flutter.dev/deployment/android#configure-signing-in-gradle
+
+
+
+
