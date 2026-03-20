@@ -102,6 +102,6 @@ build/app/outputs/bundle/release/app-release.aab
 
 Generate icon using dart file:
 ```bash
-dart run tool/generate_icons.dart
+dart run tools/generate_icons.dart
 ```
 
