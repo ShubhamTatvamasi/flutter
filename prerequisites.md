@@ -10,8 +10,6 @@ brew install --cask android-commandlinetools
 
 Set ANDROID_HOME and JAVA_HOME paths:
 ```bash
-mkdir -p $HOME/Library/Android/sdk
-
 echo 'export JAVA_HOME="/opt/homebrew/opt/openjdk@17"' >> ~/.zshrc
 echo 'export ANDROID_HOME="$HOME/Library/Android/sdk"' >> ~/.zshrc
 echo 'export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"' >> ~/.zshrc
@@ -22,6 +20,8 @@ source ~/.zshrc
 
 Link cmdline-tools:
 ```bash
+mkdir -p $HOME/Library/Android/sdk
+
 ln -s /opt/homebrew/share/android-commandlinetools/cmdline-tools \
   $ANDROID_HOME
 
